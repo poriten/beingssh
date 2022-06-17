@@ -1,0 +1,8 @@
+version: 2.1
+jobs:
+  build:
+    machine:
+      image: ubuntu-2204:2022.04.2
+    steps:
+      - run: sudo apt-get update && sudo apt-get install tmate
+      - run: tmate
