@@ -1,6 +1,6 @@
 version: 2.1
 jobs:
-  build:
+  build-v2:
     machine:
       image: ubuntu-2204:2022.04.2
     steps:
